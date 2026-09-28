@@ -21,11 +21,12 @@ public class SortArray {
                 if (sorted[max_]<= sorted[j]){
                     max_ = j;
                 }
-                // let's swap it:
-                int temp = sorted[i];
-                sorted[i] = sorted[max_];
-                sorted[max_] = temp;
+
             }
+            // let's swap it:
+            int temp = sorted[i];
+            sorted[i] = sorted[max_];
+            sorted[max_] = temp;
         }
 
         return sorted;
